@@ -1,0 +1,133 @@
+header {
+    background-color: lightgray;
+    position: sticky;
+    top: 0;
+    padding: 2px 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 70px;
+}
+ header li {
+    /* background-color: yellowgreen; */
+    display: inline-block;    
+    padding: 20px;
+    font-size: 26px;
+ }
+.content {
+    /* background-color: antiquewhite; */
+    padding: 30px;
+}
+.hero {
+    /* background-color: aqua; */
+    padding: 0vw 10vw;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    min-height: fit-content;
+}
+.leftHero {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-height: fit-content;
+}
+.leftHero h1 {
+    /* background-color: greenyellow; */
+    font-size: 70px;
+}
+.leftHero h3 {
+    /* background-color: blue; */
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.leftHero p {
+    /* background-color: orchid; */
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    bottom: 40px;
+}
+.buttons {
+    /* background-color: #fed00f; */
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    bottom: 25px;
+}
+button {
+    background-color: #DBC0FF;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    width: 160px;
+}
+.rightHero {
+    /* background-color: salmon; */
+    align-self: center
+}
+.rightHero img {
+    width: 350px;
+}
+.myServices {
+    /* background-color: palegreen; */
+    font-size: 30px;
+    height: 400px;
+    padding: 0vw 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.myServices h4 {
+    position: relative;
+    top: 50px;
+}
+.serviceList {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    position: relative;
+}
+.serviceItem {
+    border: solid 1px;
+}
+.serviceItem img {
+    height: 100%;
+    width: 100%;
+}
+footer {
+    background-color: lightgray;
+    padding: 10px 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between
+}
+.footerContent {
+    /* background-color: orange; */
+    width: 78%;
+    padding: 0% 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.socials {
+    /* background-color: red; */
+    padding: 6px;
+    width: 16%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.socials img {
+    /* background-color: blue; */
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px;
+}
